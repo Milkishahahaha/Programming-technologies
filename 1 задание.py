@@ -11,7 +11,7 @@ class Student:
         if 1 <= mark <= 5:
             self.marks.append(mark)
         else:
-            print(f"Оценка {mark} недопустима. Допустимы оценки от 1 до 5.")
+            print(f"Оценка {mark} недопустима")
     
     def get_average_mark(self):
         if not self.marks:  
@@ -19,7 +19,7 @@ class Student:
         return sum(self.marks) / len(self.marks)
     
 #Пример использования 
-student = Student("Иван", "Петров")
+student = Student("Миляуша", "Фасхутдинова")
 print(student.get_full_name()) 
 
 student.add_mark(5)
@@ -29,3 +29,4 @@ student.add_mark(6)
 
 print(student.get_average_mark())
     
+
