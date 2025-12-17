@@ -18,7 +18,7 @@ class Student:
             return 0.0
         return sum(self.marks) / len(self.marks)
     
-#Пример использования 
+
 student = Student("Миляуша", "Фасхутдинова")
 print(student.get_full_name()) 
 
@@ -29,4 +29,5 @@ student.add_mark(6)
 
 print(student.get_average_mark())
     
+
 
