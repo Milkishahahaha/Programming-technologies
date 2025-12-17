@@ -27,7 +27,7 @@ class Bicycle(Vehicle):
         return f"{base_info}, тип: {self.type}"
     
 
-#Пример использования 
+
 if __name__ == "__main__":
     vehicle = Vehicle("Toyota", "Camry")
     car = Car("Toyota", "Camry", 4)
@@ -49,4 +49,5 @@ if __name__ == "__main__":
     
     print("\nДругие транспортные средства:")
     print(car2.get_info())  
+
     print(bicycle2.get_info())  
