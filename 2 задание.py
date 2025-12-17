@@ -28,7 +28,7 @@ class BankAccount:
         return self.__balance
 
 
-#Пример использования 
+
 if __name__ == "__main__":
     account = BankAccount("1234567890")
     print(f"Начальный баланс: {account.get_balance()}")  
@@ -43,4 +43,5 @@ if __name__ == "__main__":
     print(f"Баланс после попытки снятия 1000: {account.get_balance()}")  
    
     print(f"Номер счета: {account.account_number}")  
+
   
